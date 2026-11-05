@@ -1,0 +1,31 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.DotSettings.user
+
+## Build / publish
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+publish/
+
+## Generated output
+*.pdf
+!docs/**
+
+## OS / IDE
+.DS_Store
+.idea/
+*.swp
+*~
+
+## Secrets / local
+.env
+*.pfx
